@@ -52,11 +52,12 @@ Common regularizers are:
 ![image](https://user-images.githubusercontent.com/65759544/87307080-928aa400-c54b-11ea-83cf-3b1737d879d4.png)
 
 # Variational Autoencoders
-WIP
+![image](https://user-images.githubusercontent.com/65759544/87314292-98858280-c555-11ea-8c70-69ddc848e889.png)
+
 
 ## References
 * [Introduction to autoencoders](https://www.jeremyjordan.me/autoencoders/)
-* [Sparse, Stacked and Variational Autoencoder](https://medium.com/@venkatakrishna.jonnalagadda/sparse-stacked-and-variational-autoencoder-efe5bfe73b64)
-* [Sparse-Autoencoder](https://mc.ai/what-happens-in-sparse-autencoder/)
-
+* [Sparse, Stsacked and Variational Autoencoder](https://medium.com/@venkatakrishna.jonnalagadda/sparse-stacked-and-variational-autoencoder-efe5bfe73b64)
+* [Sparse Autoencoder](https://mc.ai/what-happens-in-sparse-autencoder/)
+* [Variational Autoencoders Explained](http://kvfrans.com/variational-autoencoders-explained/)
 
