@@ -28,10 +28,6 @@ The main disadvantage of using a simple autoencoder is that it has no explicit r
 ## Simple Autoencoder output
 ![image](https://user-images.githubusercontent.com/65759544/87286487-82fb6300-c52b-11ea-8b66-7f658f8af543.png)
 
-Image above is a sample output of an autoencoder neural network. 
-
-However, the main disadvatage of using simple autoencoders
-
 # Sparse Autoencoders
 WIP
 # Variational Autoencoders
