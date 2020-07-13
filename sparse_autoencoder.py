@@ -112,7 +112,7 @@ def show(img):
     plt.imshow(np.transpose(npimg, (1,2,0)), interpolation='nearest')
 
 sample_data, _ = next(iter(test_loader)) 
-
+sample_data = sample_data + torch.empty(128, 1, 28, 28).normal_(0.1307, 0.3081)
 output = model((sample_data.squeeze().reshape(-1, 784)).to(device))
 output = output.unsqueeze(1).reshape(-1, 1, 28, 28).detach().cpu()
 
