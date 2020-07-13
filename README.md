@@ -32,6 +32,8 @@ The main disadvantage of using a simple autoencoder is that it has no explicit r
 
 ## Simple Autoencoder Output
 ![image](https://user-images.githubusercontent.com/65759544/87286487-82fb6300-c52b-11ea-8b66-7f658f8af543.png)
+### Added gaussian noise to input data
+![image](https://user-images.githubusercontent.com/65759544/87307621-84895300-c54c-11ea-92c9-ee0534cfb591.png)
 
 # Sparse Autoencoders
 
@@ -46,9 +48,9 @@ Common regularizers are:
 ## Sparse Autoencoder Output
 ![image](https://user-images.githubusercontent.com/65759544/87306219-49862000-c54a-11ea-8e04-0da7dea768a7.png)
 
-#### Added gaussian noise to input data
+### Added gaussian noise to input data
 ![image](https://user-images.githubusercontent.com/65759544/87307080-928aa400-c54b-11ea-83cf-3b1737d879d4.png)
-    
+
 # Variational Autoencoders
 WIP
 
