@@ -39,11 +39,14 @@ Overfitting can be mitigated by adding a sparsity penalty to the existing traini
 
 ![image](https://user-images.githubusercontent.com/65759544/87304460-6e2cc880-c547-11ea-91d0-1e0ba8735a58.png)
 
-## Sparse Autoencoder Output
-
 Common regularizers are:
 1. L1 Regularization
 2. KL-Divergence
+
+## Sparse Autoencoder Output
+![image](https://user-images.githubusercontent.com/65759544/87306219-49862000-c54a-11ea-8e04-0da7dea768a7.png)
+
+
 
 
 # Variational Autoencoders
