@@ -1,4 +1,4 @@
-# autoencoders
+# Autoencoders
 
 
 ## Simple Autoencoder output
