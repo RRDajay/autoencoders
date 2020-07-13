@@ -30,7 +30,7 @@ Common loss functions used for autoencoders are MSELoss and BCELoss.
 
 The main disadvantage of using a simple autoencoder is that it has no explicit regularization term. In other words, the only way to avoid overfitting is to sufficiently restrict the number of nodes in the hidden layer. 
 
-## Simple Autoencoder output
+## Simple Autoencoder Output
 ![image](https://user-images.githubusercontent.com/65759544/87286487-82fb6300-c52b-11ea-8b66-7f658f8af543.png)
 
 # Sparse Autoencoders
@@ -38,6 +38,8 @@ The main disadvantage of using a simple autoencoder is that it has no explicit r
 Overfitting can be mitigated by adding a sparsity penalty to the existing training criterion of the neural network as seen by the formula below. This encourages fewer nodes to be activated when a sample is feeded into the network. 
 
 ![image](https://user-images.githubusercontent.com/65759544/87304460-6e2cc880-c547-11ea-91d0-1e0ba8735a58.png)
+
+## Sparse Autoencoder Output
 
 Common regularizers are:
 1. L1 Regularization

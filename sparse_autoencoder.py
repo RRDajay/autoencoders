@@ -40,17 +40,19 @@ class AutoEncoder(nn.Module):
   def __init__(self):
     super().__init__()
     self.encoder = nn.Sequential(nn.Linear(784, 128),
-                                 nn.ReLU(),
+                                #  nn.ReLU(),
                                  nn.Linear(128, 64),
-                                 nn.ReLU(),
-                                 nn.Linear(64, 16))
+                                #  nn.ReLU(),
+                                 nn.Linear(64, 16)
+                                 )
     
     self.decoder = nn.Sequential(nn.Linear(16, 64),
-                                 nn.ReLU(),
+                                #  nn.ReLU(),
                                  nn.Linear(64, 128),
-                                 nn.ReLU(),
+                                #  nn.ReLU(),
                                  nn.Linear(128, 784),
-                                 nn.Sigmoid())
+                                #  nn.Sigmoid()
+                                 )
 
   def forward(self, x):
     x = self.encoder(x)
@@ -67,7 +69,6 @@ def sparse_loss(model, data):
     for j in i: 
       values = F.relu(j(values))
       loss += torch.mean(torch.abs(values))
-      print(loss)
   return loss
 
 reg_param = 0.001 # tuning parameter for l1 regularization
@@ -97,7 +98,6 @@ for epoch in range(num_epochs):
     optimizer.step()
 
     running_loss.append(loss.item())
-
     if batch_idx % batch_size == 0: 
       print(f"Epoch:{epoch+1}\t\tBatch Step:{batch_idx+1}/{len(train_loader)}\t\tLoss:{sum(running_loss)/len(running_loss):.4f}")
 
