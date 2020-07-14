@@ -60,4 +60,5 @@ Common regularizers are:
 * [Sparse, Stsacked and Variational Autoencoder](https://medium.com/@venkatakrishna.jonnalagadda/sparse-stacked-and-variational-autoencoder-efe5bfe73b64)
 * [Sparse Autoencoder](https://mc.ai/what-happens-in-sparse-autencoder/)
 * [Variational Autoencoders Explained](http://kvfrans.com/variational-autoencoders-explained/)
-
+* [Understanding Variational Encoders (VAES)](https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73)
+* [Tutorial on Variational Autoencoders](https://arxiv.org/abs/1606.05908)
